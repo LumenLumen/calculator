@@ -18,7 +18,7 @@ if __name__ == '__main__':
     elif args.operation == 'mean':
         print(f'moy({args.first_value}, {args.second_value}) = {calc.mymean([args.first_value, args.second_value])}')
 =======
-    if args.operation == 'multi':
+    elif args.operation == 'multi':
         print(f'{args.first_value} * {args.second_value} = {calc.mymulti(args.first_value, args.second_value)}')
 >>>>>>> master
     else :
