@@ -1,7 +1,8 @@
 # calculator
 
 ## Run calculator
-
+ La commande pip install -r requirements.txt permet d’installer les librairies 
+référencées.
 ### Sum
 
 Example : 
