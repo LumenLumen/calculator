@@ -13,5 +13,7 @@ if __name__ == '__main__':
 
     if args.operation == 'sum':
         print(f'{args.first_value} + {args.second_value} = {calc.mysum(args.first_value, args.second_value)}')
+    if args.operation == 'multi':
+        print(f'{args.first_value} * {args.second_value} = {calc.mymulti(args.first_value, args.second_value)}')
     else :
         print('The function is not taken into account in our calculator')
