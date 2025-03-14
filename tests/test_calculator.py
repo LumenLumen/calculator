@@ -11,6 +11,9 @@ class TestCalculator(TestCase):
     def test_multiplication(self):
         self.assertEqual(self.calc.mymulti(5,2),10)
 
+    def test_mean(self):
+        self.assertEqual(self.calc.mymean([1, 2, 3]), 2)
+
     
     
 if __name__ == '__main__':
