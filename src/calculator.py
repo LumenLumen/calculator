@@ -13,4 +13,3 @@ class Calculator :
     # Multiplication
     def mymulti(self,first_operand, second_operand):
          return first_operand * second_operand
-#comm jpp
