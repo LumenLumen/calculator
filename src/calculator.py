@@ -3,7 +3,7 @@ class Calculator :
     def mysum(self, first_operand, second_operand):
         return first_operand + second_operand
 
-    # Moyenne
+    # Moyenne des nombres 
     def mymean(self, operands):
         sum = 0
         for nb in operands :
