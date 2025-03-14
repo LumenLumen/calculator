@@ -1,2 +1,3 @@
-calculator\tests\venv
+*venv
 *.coverage
+_pycache_
