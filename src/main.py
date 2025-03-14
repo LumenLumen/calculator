@@ -13,13 +13,10 @@ if __name__ == '__main__':
 
     if args.operation == 'sum':
         print(f'{args.first_value} + {args.second_value} = {calc.mysum(args.first_value, args.second_value)}')
-<<<<<<< HEAD
 
     elif args.operation == 'mean':
         print(f'moy({args.first_value}, {args.second_value}) = {calc.mymean([args.first_value, args.second_value])}')
-=======
     elif args.operation == 'multi':
         print(f'{args.first_value} * {args.second_value} = {calc.mymulti(args.first_value, args.second_value)}')
->>>>>>> master
     else :
         print('The function is not taken into account in our calculator')
